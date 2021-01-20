@@ -110,8 +110,8 @@ class TitleMeta(TitleExtension):
     )
 
     class Meta:
-        verbose_name = _("Page meta info (language-dependent)")
-        verbose_name_plural = _("Page meta info (language-dependent)")
+        verbose_name = _("Title meta info (language-dependent)")
+        verbose_name_plural = _("Title meta info (language-dependent)")
 
     def __str__(self):
         return _("Title Meta for {0}").format(self.extended_object)
